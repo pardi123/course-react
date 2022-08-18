@@ -4,6 +4,7 @@
   "projects": {
     "admin-page": "apps/admin-page",
     "admin-page-e2e": "apps/admin-page-e2e",
-    "shared-layout-sidebar": "libs/shared/layout/sidebar"
+    "admin-pagee-shared-layout": "libs/admin-pagee/shared/layout",
+    "admin-pagee-shared-ui": "libs/admin-pagee/shared/ui"
   }
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/shared/layout/sidebar/src",
+  "sourceRoot": "libs/admin-pagee/shared/layout/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -8,14 +8,16 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/shared/layout/sidebar/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "libs/admin-pagee/shared/layout/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/shared/layout/sidebar"],
+      "outputs": ["coverage/libs/admin-pagee/shared/layout"],
       "options": {
-        "jestConfig": "libs/shared/layout/sidebar/jest.config.ts",
+        "jestConfig": "libs/admin-pagee/shared/layout/jest.config.ts",
         "passWithNoTests": true
       }
     }

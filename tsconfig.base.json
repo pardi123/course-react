@@ -15,8 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@course-react/shared/layout/sidebar": [
-        "libs/shared/layout/sidebar/src/index.ts"
+      "@course-react/admin-pagee/shared/layout": [
+        "libs/admin-pagee/shared/layout/src/index.ts"
+      ],
+      "@course-react/admin-pagee/shared/ui": [
+        "libs/admin-pagee/shared/ui/src/index.ts"
       ]
     }
   },
